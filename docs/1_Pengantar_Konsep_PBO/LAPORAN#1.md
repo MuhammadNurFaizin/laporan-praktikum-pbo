@@ -76,11 +76,11 @@ Polimorfisme merupakan kemampuan objekobjek yang berbeda kelas namun terkait dal
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/camera1.PNG)
+![contoh screenshot](img/camera 1.PNG)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/camera1841720061faizin.java)
 
-![contoh screenshot](imgcameraDemo.PNG)
+![contoh screenshot](img/cameraDemo.PNG)
 
 Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/cameraDemo1841720061faizin.java)
 
