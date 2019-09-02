@@ -6,7 +6,7 @@
 
 ## Ringkasan Materi
 
-(berisi catatan penting pribadi selama praktikum berlangsung ataupun menemukan permasalahan khusus saat melakukan percobaan)
+(Alhamdulillah lancar.. Cuman masih belajar cara membuat laporan)
 
 ## Percobaan
 
@@ -16,9 +16,14 @@
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![contoh screenshot](img/Sepeda.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720061faizin.java)
+
+![contoh screenshot](img/SepedaDemo1.PNG)
+
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/sepedaDemo1.1841720061faizin.java)
+
 
 ### Percobaan 2
 
@@ -26,13 +31,44 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![contoh screenshot](img/SepedaGunung.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720061faizin.java)
+
+![contoh screenshot](img/SepedaDemo.PNG)
+
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/sepedaDemo1841720061faizin.java)
 
 ## Pertanyaan
 
-(silakan ketik pertanyaan di sini beserta jawabannya.)
+PERTANYAAN
+1.	Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman     berorientasi objek!
+2.	Apa yang dimaksud dengan object dan apa bedanya dengan class?
+3.	Sebutkan salah satu kelebihan utama dari pemrograman             berorientasi objek dibandingkan dengan pemrograman struktural!
+4.	Pada class Sepeda, terdapat state/atribut apa saja?
+5.	Tambahkan atribut warna pada class Sepeda.
+6.	Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?
+
+JAWAB
+1. 
+*Abstraction adalah deskripsi abstrak informasi dan tingkah laku dari sekumpulan data.
+Kelas dapat diilustrasikan sebagai suatu cetak biru(blueprint) atau prototipe yang digunakan untuk menciptakan objek.
+*Enkapsulasi (encapsulation)
+Enkapulasi adalah kombinasi data dan fungsionalitas dalam sebuah unit tunggal sebagai bentuk untuk menyembunyikan detail informasi.
+*Pewarisan (Inheritance)
+suatu kelas baru dengan mewarisi sifat dari kelas lain yang sudah ada.
+Penurunan sifat ini bisa dilakukan secara bertingkattingkat, sehingga semakin ke bawah kelas tersebut menjadi semakin spesifik.
+*Polimorfisme (polymorphism)
+Polimorfisme merupakan kemampuan objekobjek yang berbeda kelas namun terkait dalam pewarisan untuk merespon secara berbeda terhadap suatu pesan yang sama.
+2. Class adalah deskripsi abstrak informasi dan tingkah laku dari sekumpulan data sedangkan object pemanfaatan dari class.
+
+3. Kelebihan dari PBO adalah untuk meningkatkan produktivitas karena di dalam PBO yang telah dibuat untuk suatu problem masih bisa digunakan untuk problem yang lain
+
+4. rem, merek, warna, kecepatan, gear, seMerek, gantiGear, tamhaKecepatan, cetakStatus
+
+5. ![contoh screenshot](img/warna.PNG)
+
+6. Dikarenakan class SepedaGunung merupakan penurunan dari class Sepeda.
 
 ## Tugas
 
@@ -40,9 +76,13 @@ Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengant
 
 `contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/contoh-schot1.PNG)
+![contoh screenshot](img/camera1.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Contoh12345Habibie.java)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/camera1841720061faizin.java)
+
+![contoh screenshot](imgcameraDemo.PNG)
+
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/cameraDemo1841720061faizin.java)
 
 ## Kesimpulan
 
