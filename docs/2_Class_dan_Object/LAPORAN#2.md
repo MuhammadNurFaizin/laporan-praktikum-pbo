@@ -1,92 +1,141 @@
-# Laporan Praktikum #1 - Pengantar Konsep PBO
+# Laporan Praktikum #2 - Class dan Objek
 
 ## Kompetensi
 
-(ketiklah kompetensi tiap praktikum di sini)
+( Mahasiswa dapat memahami deskripsi dari class dan object 
+ Mahasiswa memahami implementasi dari class 
+ Mahasiswa dapat memahami implementasi dari attribute 
+ Mahasiswa dapat memahami implementasi dari method 
+ Mahasiswa dapat memahami implementasi dari proses instansiasi 
+ Mahasiswa dapat memahami implementasi dari try-catch 
+ Mahasiswa dapat memahami proses pemodelan class diagram menggunakan UML )
 
 ## Ringkasan Materi
 
-(Alhamdulillah lancar.. Cuman masih belajar cara membuat laporan)
+(saya dapat menguasai class dan objek. Dan ada 4 pilar pemograman berbasis web yaitu : 1. abstraction 2.encapsulation 3.heritance 4.polymorpysm)
 
 ## Percobaan
 
 ### Percobaan 1
 
-(berisi penjelasan percobaan 1. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+1. 
+![contoh screenshot](img/karyawan.PNG)
 
-![contoh screenshot](img/Sepeda.PNG)
+2.  class karyawan dan class karyawanMain
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720061faizin.java)
+3.  integer : id, gaji<br>
+    String : nama, jenis kelamin, jabatan
 
-![contoh screenshot](img/SepedaDemo1.PNG)
-
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/sepedaDemo1.1841720061faizin.java)
-
+4. tampilBiodata() :void
 
 ### Percobaan 2
 
-(berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+ 1. 
+ ![contoh screenshot](img/neatbeans.PNG)  Bukalah text editor atau IDE, misalnya Notepad ++ / netbeans
+ 
+ 2.
+ ![contoh screenshot](img/mahasiswa.PNG)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+ [ini adalah link ke kode program](../../src/2_Class_dan_Object/Mahasiswa1841720061faizin.java)
 
-![contoh screenshot](img/SepedaGunung.PNG)
+3. Simpan dengan nama file Mahasiswa.java. 
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720061faizin.java)
+4. Untuk dapat mengakses anggota-anggota dari suatu obyek, maka harus dibuat instance dari class tersebut terlebih dahulu. Berikut ini adalah cara pengaksesan anggota- anggota dari class Mahasiswa dengan membuka file baru kemudian ketikkan kode program berikut: 
+![contoh screenshot](img/TestMahasiswa.PNG)
 
-![contoh screenshot](img/SepedaDemo.PNG)
+[ini adalah link ke kode program](../../src/2_Class_dan_Object/sepedaDemo1.1841720061faizin.java)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/sepedaDemo1841720061faizin.java)
+5.  Simpan file dengan TestMahasiswa.java 
 
-## Pertanyaan
+6. class Test mahasiswa akan memanggil ke class mahasiswa yang akan diolah dan diaksesnya suatu program yaitu mahasiswa
 
-PERTANYAAN
-1.	Sebutkan dan jelaskan aspek-aspek yang ada pada pemrograman     berorientasi objek!
-2.	Apa yang dimaksud dengan object dan apa bedanya dengan class?
-3.	Sebutkan salah satu kelebihan utama dari pemrograman             berorientasi objek dibandingkan dengan pemrograman struktural!
-4.	Pada class Sepeda, terdapat state/atribut apa saja?
-5.	Tambahkan atribut warna pada class Sepeda.
-6.	Mengapa pada saat kita membuat class SepedaGunung, kita tidak perlu membuat class nya dari nol?
+7.  integer : nim; <br>
+    String : nama, alamat, kelas;
 
-JAWAB
+8. pada methood tampilBiodata()
+
+9.  objek yang di instansiasi pada program ada 1 yaitu mahasiswa mhs1= new mahasiswa()
+
+10. dia akan memanggil pada kelas nim dan akan meng output nilai 101
+
+11. memanggil methood biodata pada class mahasiswa dan meng akses di dalam methood tersebut
+
+12. ![contoh screenshot](img/mahasiswa2.PNG)
+
+[ini adalah link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.1841720061faizin.java)
+
+### Percobaan 3
+
 1. 
-*Abstraction adalah deskripsi abstrak informasi dan tingkah laku dari sekumpulan data.
-Kelas dapat diilustrasikan sebagai suatu cetak biru(blueprint) atau prototipe yang digunakan untuk menciptakan objek.
-*Enkapsulasi (encapsulation)
-Enkapulasi adalah kombinasi data dan fungsionalitas dalam sebuah unit tunggal sebagai bentuk untuk menyembunyikan detail informasi.
-*Pewarisan (Inheritance)
-suatu kelas baru dengan mewarisi sifat dari kelas lain yang sudah ada.
-Penurunan sifat ini bisa dilakukan secara bertingkattingkat, sehingga semakin ke bawah kelas tersebut menjadi semakin spesifik.
-*Polimorfisme (polymorphism)
-Polimorfisme merupakan kemampuan objekobjek yang berbeda kelas namun terkait dalam pewarisan untuk merespon secara berbeda terhadap suatu pesan yang sama.
-2. Class adalah deskripsi abstrak informasi dan tingkah laku dari sekumpulan data sedangkan object pemanfaatan dari class.
 
-3. Kelebihan dari PBO adalah untuk meningkatkan produktivitas karena di dalam PBO yang telah dibuat untuk suatu problem masih bisa digunakan untuk problem yang lain
+![contoh screenshot](img/neatbeans.PNG) disini saya memakai neatbeans
 
-4. rem, merek, warna, kecepatan, gear, seMerek, gantiGear, tamhaKecepatan, cetakStatus
+2. 
+![contoh screenshot](img/barang.PNG)
 
-5. ![contoh screenshot](img/warna.PNG)
+[ini adalah link ke kode program](../../src/2_Class_dan_Object/Barang1841720061faizin.java)
 
-6. Dikarenakan class SepedaGunung merupakan penurunan dari class Sepeda.
+3. Simpan dengan nama file Barang.java
+
+4.  Untuk dapat mengakses anggota-anggota dari suatu obyek, maka harus dibuat instance dari class tersebut terlebih dahulu. Berikut ini adalah cara pengaksesan anggota- anggota dari class Barang dengan membuka file baru kemudian ketikkan kode program berikut: 
+ 
+![contoh screenshot](img/TestBarang.PNG)
+
+[ini adalah link ke kode program](../../src/2_Class_dan_Object/TestBarang1841720061faizin.java)
+
+5. Simpan dengan nama file TestBarang.java 
+
+6. ![contoh screenshot](img/TestBarang.PNG)
+
+7. fungsi argumen pada methood adalah mengakses nilai suatu data
+
+8. return digunakan untuk mengembalikan nilai dan return di gunakan ketika methood yang mempunyai kalkulasi suatu input
 
 ## Tugas
+1. 
 
-(silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+![contoh screenshot](img/game.PNG)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+ [ini adalah link ke kode program](../../src/2_Class_dan_Object/Game1841720061faizin.java)
 
-![contoh screenshot](img/camera 1.PNG)
+2. 
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/camera1841720061faizin.java)
+![contoh screenshot](img/Game.PNG)
 
-![contoh screenshot](img/cameraDemo.PNG)
+ [ini adalah link ke kode program](../../src/2_Class_dan_Object/Game1841720061faizin.java)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/cameraDemo1841720061faizin.java)
+![contoh screenshot](img/TestGame.PNG)
+
+ [ini adalah link ke kode program](../../src/2_Class_dan_Object/TestGame1841720061faizin.java)
+
+3. 
+![contoh screenshot](img/Lingkaran.PNG)
+
+ [ini adalah link ke kode program](../../src/2_Class_dan_Object/Lingkaran1841720061faizin.java)
+
+![contoh screenshot](img/TestLingkaran.PNG)
+
+ [ini adalah link ke kode program](../../src/2_Class_dan_Object/TestLingkaran1841720061faizin.java)
+
+4. 
+![contoh screenshot](img/BarangTugas.PNG)
+
+ [ini adalah link ke kode program](../../src/2_Class_dan_Object/Barang_tgas1841720061faizin.java)
+
+![contoh screenshot](img/BarangMain.PNG)
+
+ [ini adalah link ke kode program](../../src/2_Class_dan_Object/BarangMain1841720061faizin.java)
+
+
 
 ## Kesimpulan
 
-(Berisi simpulan yang telah diperoleh selama praktikum atau belajar pada pertemuan ini)
+(
+* Class dan Object adalah suatu yang dibuat untuk memogram
+* Attribute: Untuk melakukan pendeklarasian attribute dapat dilakukan dengan sintaks 
+* Method : suatu blok dari program yang berisi kode program nama dan properti yang dapat digunakan kembali
+*  )
 
 ## Pernyataan Diri
 
