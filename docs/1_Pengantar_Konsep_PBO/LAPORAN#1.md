@@ -25,10 +25,6 @@ link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/
 
 ### Percobaan 2
 
-(berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
-
-`screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
-
 ![screenshot](img/SepedaGunung.PNG)
 
 link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720061faizin.java)
@@ -70,10 +66,6 @@ Polimorfisme merupakan kemampuan objekobjek yang berbeda kelas namun terkait dal
 
 ## Tugas
 
-(silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
-
-`screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
-
 ![screenshot](img/camera 1.PNG)
 
 link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/camera1841720061faizin.java)
@@ -84,8 +76,9 @@ link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/
 
 ## Kesimpulan
 
-(Berisi simpulan yang telah diperoleh selama praktikum atau belajar pada pertemuan ini)
+4 pilar pemograman berbasis object 
 
+abstaction, encapsulation, polymorphism, heritance 
 ## Pernyataan Diri
 
 Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
