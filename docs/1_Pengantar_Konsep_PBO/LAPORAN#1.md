@@ -2,7 +2,9 @@
 
 ## Kompetensi
 
-(ketiklah kompetensi tiap praktikum di sini)
+Setelah menempuh materi percobaan ini, mahasiswa mampu mengenal: 
+1. Perbedaan paradigma berorientasi objek dengan paradigma struktural 
+2. Konsep dasar PBO 
 
 ## Ringkasan Materi
 
@@ -11,33 +13,29 @@
 ## Percobaan
 
 ### Percobaan 1
+program Sepeda
+![screenshot program Sepeda](img/Sepeda.PNG)
 
-(berisi penjelasan percobaan 1. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720061faizin.java)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+![screenshot](img/SepedaDemo1.PNG)
 
-![contoh screenshot](img/Sepeda.PNG)
-
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda1841720061faizin.java)
-
-![contoh screenshot](img/SepedaDemo1.PNG)
-
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/sepedaDemo1.1841720061faizin.java)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/sepedaDemo1.1841720061faizin.java)
 
 
 ### Percobaan 2
 
 (berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+`screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/SepedaGunung.PNG)
+![screenshot](img/SepedaGunung.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720061faizin.java)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaGunung1841720061faizin.java)
 
-![contoh screenshot](img/SepedaDemo.PNG)
+![screenshot](img/SepedaDemo.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/sepedaDemo1841720061faizin.java)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/sepedaDemo1841720061faizin.java)
 
 ## Pertanyaan
 
@@ -66,7 +64,7 @@ Polimorfisme merupakan kemampuan objekobjek yang berbeda kelas namun terkait dal
 
 4. rem, merek, warna, kecepatan, gear, seMerek, gantiGear, tamhaKecepatan, cetakStatus
 
-5. ![contoh screenshot](img/warna.PNG)
+5. ![screenshot](img/warna.PNG)
 
 6. Dikarenakan class SepedaGunung merupakan penurunan dari class Sepeda.
 
@@ -74,15 +72,15 @@ Polimorfisme merupakan kemampuan objekobjek yang berbeda kelas namun terkait dal
 
 (silakan kerjakan tugas di sini beserta `screenshot` hasil kompilasi program. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
 
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
+`screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
-![contoh screenshot](img/camera 1.PNG)
+![screenshot](img/camera 1.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/camera1841720061faizin.java)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/camera1841720061faizin.java)
 
-![contoh screenshot](img/cameraDemo.PNG)
+![screenshot](img/cameraDemo.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/cameraDemo1841720061faizin.java)
+link kode program : [ini link ke kode program](../../src/1_Pengantar_Konsep_PBO/cameraDemo1841720061faizin.java)
 
 ## Kesimpulan
 
