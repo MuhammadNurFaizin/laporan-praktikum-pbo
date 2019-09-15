@@ -12,7 +12,7 @@
 
 ## Ringkasan Materi
 
-(saya dapat menguasai class dan objek. Dan ada 4 pilar pemograman berbasis web yaitu : 1. abstraction 2.encapsulation 3.heritance 4.polymorpysm)
+(saya dapat menguasai class dan objek. Dan ada 4 pilar pemograman berbasis web yaitu : 1. abstraction 2.encapsulation 3.heritance 4.polymorpysm).lms
 
 ## Percobaan
 
