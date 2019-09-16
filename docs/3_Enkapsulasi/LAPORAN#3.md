@@ -1,4 +1,4 @@
-# Laporan Praktikum #2 - Class dan Objek
+# Laporan Praktikum #3 - Enkapsulasi
 
 ## Kompetensi
 
@@ -12,11 +12,11 @@ Setelah melakukan percobaan pada modul ini, mahasiswa memahami konsep:
 6. Memahami notasi pada UML Class Diagram 
 
 ## Ringkasan Materi
-1. ENKAPSULASI
+1. ENKAPSULASI<br>
     Enkapsukasi disebut juga dengan information-hiding. Dalam berinteraksi dengan objek, seringkali kita tidak perlu mengetahui kompleksitas yang ada didalamnya. 
-2. KONSTRUKTOR
+2. KONSTRUKTOR<br>
     Konstruktor mirip dengan method cara deklarasinya akan tetapi tidak memiliki tipe return. Dan konstruktor dieksekusi ketika instan dari objek dibuat. 
-3. AKSES MODIFER 
+3. AKSES MODIFER <br>
     Terdapat 2 tipe modifier di java yaitu : akses modifier dan non-access modifier. Dalam hal ini kita akan fokus pada akses modifier yang berguna untuk mengatur akses method, class, dan constructor. Terdapat 4 akses modifier yaitu: 
     1. private – hanya dapat diakses di dalam kelas yang sama 
     2. default –  hanya dapat diakses di dalam package yang sama 
@@ -109,36 +109,37 @@ c. Ketikkan kode class Anggota dibawah ini.
 
 
   ### Pertanyaan – Percobaan 3 dan 4 
-  1. Apa yang dimaksud getter dan setter? 
-    Getter adalah public method dan memiliki tipe data return, yang berfungsi untuk mendapatkan nilai dari atribut private. Sedangkan setter adalah public method yang tidak memliki tipe data return, yang berfungsi untuk memanipulasi nilai dari atribut private
+  1. Apa yang dimaksud getter dan setter?<br> 
+    Getter adalah public method dan memiliki tipe data return, yang berfungsi untuk mendapatkan nilai dari atribut private. Sedangkan<br> 
+    setter adalah public method yang tidak memliki tipe data return, yang berfungsi untuk memanipulasi nilai dari atribut private
      
-  2. Apa kegunaan dari method getSimpanan()? 
+  2. Apa kegunaan dari method getSimpanan()?<br> 
     Kegunaan method simpanan adalah untuk memanggil atribut simpanan untuk diakses ke class lain
 
-  3. Method apa yang digunakan untk menambah saldo? 
-    ublic void setor(float uang){
+  3. Method apa yang digunakan untk menambah saldo?<br> 
+    public void setor(float uang){<br>
         simpanan += uang;
     }
 
-  4. Apa yand dimaksud konstruktor? 
+  4. Apa yand dimaksud konstruktor?<br> 
     konstruktor adalah method khusus yang akan dijalankan secara otomatis pada saat sebuah objek dibuat (instansiasi), yakni ketika perintah “new” dijalankan.
 
-  5. Sebutkan aturan dalam membuat konstruktor? 
+  5. Sebutkan aturan dalam membuat konstruktor? <br>
     Nama konstruktor harus sama dengan nama class nya
     Tidak mempunyai tipe data
 
-  6. Apakah boleh konstruktor bertipe private? 
+  6. Apakah boleh konstruktor bertipe private? <br>
     Tidak Bisa
   
-  7. Kapan menggunakan parameter dengan passsing parameter? 
+  7. Kapan menggunakan parameter dengan passsing parameter? <br>
      Ketika ada konstruktor yang mempunyai parameter 
 
-  8. Apa perbedaan atribut class dan instansiasi atribut?
-     Atribut class merupakan nilai data yang terdapat pada suatu object yang berasal dari class. (sedangkan)
+  8. Apa perbedaan atribut class dan instansiasi atribut?<br>
+     Atribut class merupakan nilai data yang terdapat pada suatu object yang berasal dari class. (sedangkan)<br>
      instansiasi atribut adalah memanggil suatu atribut class pada class berbeda
 
-  9. Apa perbedaan class method dan instansiasi method?  
-    Clas Method adalah sesuatu yang mempunyai object dalam menginput kan suatu object (sedangkan)
+  9. Apa perbedaan class method dan instansiasi method?  <br>
+    Clas Method adalah sesuatu yang mempunyai object dalam menginput kan suatu object (sedangkan)<br>
     instansiasi methood adalah suatu method yang udah ada pada class yang berbeda dan di panggil untuk mengakses object yang ada pada method class
 
 
