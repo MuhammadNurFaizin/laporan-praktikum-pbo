@@ -8,8 +8,7 @@
  Mahasiswa dapat memahami implementasi dari method 
  Mahasiswa dapat memahami implementasi dari proses instansiasi 
  Mahasiswa dapat memahami implementasi dari try-catch 
- Mahasiswa dapat memahami proses pemodelan class diagram menggunakan UML )
-
+ Mahasiswa dapat memahami proses pemodelan class diagram menggunakan UML ).
 ## Ringkasan Materi
 
 (saya dapat menguasai class dan objek. Dan ada 4 pilar pemograman berbasis web yaitu : 1. abstraction 2.encapsulation 3.heritance 4.polymorpysm).lms

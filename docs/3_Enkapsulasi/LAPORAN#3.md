@@ -165,10 +165,10 @@ jawab : Karena pada method set age mempunyai parameter yang bernama newAge yang 
 *
 ![contoh screenshot](img/Encap2Demo.PNG)
      ini adalah pada class EnacapDemo<br>
-     [ini adalah link ke EncapDemo](../../src/3_Enkapsulasi/Encap2Demo1841720061faizin.java)
+     [ini adalah link ke EncapDemo](../../src/3_Enkapsulasi/Encap2Demo1841720061faizin.java).
  
 *
-    ![contoh screenshot](img/EncapTest.PNG)
+    ![contoh screenshot](img/EncapTest.PNG).
  ini adalah pada class EncapTest<br>
  [ini adalah link ke EncapTest](../../src/3_Enkapsulasi/EncapTest1841720061faizin.java)
 
