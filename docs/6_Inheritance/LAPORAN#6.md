@@ -59,7 +59,7 @@ JAWAB :  karena tidak ada kode extends yang mana classB akan merujuk pada class 
 ini adalah pada class classA<br>
 [ini adalah link ke ClassA](../../src/6_Inheritance/Class2A1841720061faizin.java)
 
-![contoh screenshot](img/ClassB-2.PNG)
+![contoh screenshot](img/classB-2.PNG)
 ini adalah pada class classB<br>
 [ini adalah link ke class classB](../../src/6_Inheritance/Class2B1841720061faizin.java)
 
@@ -79,7 +79,7 @@ JAWAB:
 ini adalah pada class classA<br>
 [ini adalah link ke ClassA](../../src/6_Inheritance/Class2A1841720061faizin.java)
 
-![contoh screenshot](img/ClassB-2.PNG)
+![contoh screenshot](img/classB-2.PNG)
 ini adalah pada class classB<br>
 [ini adalah link ke class classB](../../src/6_Inheritance/Class2B1841720061faizin.java)
 
@@ -135,11 +135,11 @@ JAWAB: Karena menggunakan tipe data protected
 ini adalah pada class classA<br>
 [ini adalah link ke class ClassA](../../src/6_Inheritance/Class3A1841720061faizin.java)
 
-![contoh screenshot](img/ClassB-3.PNG)
+![contoh screenshot](img/classB-3.PNG)
 ini adalah pada class classB<br>
 [ini adalah link ke ClassB](../../src/6_Inheritance/Class3B1841720061faizin.java)
  
-![contoh screenshot](img/ClassC-3.PNG)
+![contoh screenshot](img/classC-3.PNG)
 ini adalah pada class classC<br>
 [ini adalah link ke classC](../../src/6_Inheritance/Class3C1841720061faizin.java)
 
@@ -169,7 +169,7 @@ public class ClassC extends ClassB{
 }
 ` <br>
 JAWAB:  
-![contoh screenshot](img/ClassC-3.PNG)
+![contoh screenshot](img/classC-3.PNG)
 ini adalah pada class classC<br>
 [ini adalah link ke classC](../../src/6_Inheritance/Class3C1841720061faizin.java)
 
