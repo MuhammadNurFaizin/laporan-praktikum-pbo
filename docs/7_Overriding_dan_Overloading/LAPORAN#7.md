@@ -13,13 +13,19 @@ e. Mengimplementasikan method overloading dan overriding.
 
 ## Ringkasan Materi
  Overloading  adalah menuliskan kembali method dengan nama yang sama pada suatu class. Tujuannya dapat memudahkan penggunaan/pemanggilan method dengan fungsionalitas yang mirip. Untuk aturan pendeklarasian method Overloading sebagai berikut: 
+
   Nama method harus sama. 
-  Daftar parameter harus berbeda. 
+
+  Daftar parameter harus berbeda.
+
   Return type boleh sama, juga boleh berbeda.
 
- Overriding  adalah Sublass yang berusaha memodifkasi tingkah laku yang diwarisi dari superclass. Tujuannya subclass dapat memiliki tingkah laku yang lebih spesifik sehingga dapat dilakukan dengan cara mendeklarasikan kembali method milik parent class di subclass. Deklarasi method pada subclass harus sama dengan yang terdapat di super class. Kesamaan pada: 
+ Overriding  adalah Sublass yang berusaha memodifkasi tingkah laku yang diwarisi dari superclass. Tujuannya subclass dapat memiliki tingkah laku yang lebih spesifik sehingga dapat dilakukan dengan cara mendeklarasikan kembali method milik parent class di subclass. Deklarasi method pada subclass harus sama dengan yang terdapat di super class. Kesamaan pada:
+
   Nama 
+
   Return type (untuk return type : class A atau merupakan subclass dari class A) 
+ 
   Daftar parameter (jumlah, tipe dan urutan)   
 
 ## <h2>Percobaan</h2>
@@ -29,21 +35,21 @@ Untuk kasus contoh berikut ini, terdapat tiga kelas, yaitu Karyawan,Manager, dan
 
 ![contoh screenshot](img/karyawan.PNG)
 ini adalah contoh untuk membuat class karyawan<br>
-[ini adalah link ke ClassA](../../src/7_Overriding_dan_Overloading/Karyawan1841720061faizin.java)
+[ini adalah link ke karyawanA](../../src/7_Overriding_dan_Overloading/Karyawan1841720061Faizin.java)
 
 ![contoh screenshot](img/manager.PNG)
 ini adalah contoh untuk membuat class manager<br>
-[ini adalah link ke ClassB](../../src/7_Overriding_dan_Overloading/Manager1841720061faizin.java)
+[ini adalah link ke Mnager](../../src/7_Overriding_dan_Overloading/Manager1841720061Faizin.java)
 
 ![contoh screenshot](img/staff.PNG)
 ini adalah contoh untuk membuat class staff<br>
-[ini adalah link ke main](../../src/7_Overriding_dan_Overloading/Staff1841720061faizin.java)
+[ini adalah link ke Staff](../../src/7_Overriding_dan_Overloading/Staff1841720061Faizin.java)
 
 
 ![contoh screenshot](img/main1.1.PNG)
 ![contoh screenshot](img/main1.2.PNG)
 ini adalah contoh untuk membuat class Main Percobaan 1<br>
-[ini adalah link ke main](../../src/7_Overriding_dan_Overloading/Staff1841720061faizin.java)
+[ini adalah link ke main](../../src/7_Overriding_dan_Overloading/Staff1841720061Faizin.java)
 
 ![contoh screenshot](img/hasilPercobaan1.PNG)
 ini adalah contoh untuk hasil dari percobaan 1<br>
@@ -53,7 +59,7 @@ ini adalah contoh untuk hasil dari percobaan 1<br>
 
 ![contoh screenshot](img/perkalian1ku.PNG)
 ini adalah pada class perkalian1ku<br>
-[ini adalah link ke perkalian1ku](../../src/7_Overriding_dan_Overloading/Perkalian1Ku1841720061faizin.java)
+[ini adalah link ke Perkalian1Ku](../../src/7_Overriding_dan_Overloading/Perkalian1Ku1841720061Faizin.java)
 
 ## Pertanyaan 
 1. Dari source coding diatas terletak dimanakah overloading
@@ -75,7 +81,7 @@ jumlah parameter yang berbeda ada satu yaitu pada int c
 
 ![contoh screenshot](img/perkalian2ku.PNG)
 ini adalah pada class Perkalian2ku<br>
-[ini adalah link ke class Perkalian2ku](../../src/7_Overriding_dan_Overloading/Perkalian2Ku1841720061faizin.java)
+[ini adalah link ke class Perkalian2ku](../../src/7_Overriding_dan_Overloading/Perkalian2Ku1841720061Faizin.java)
 
 ## Pertanyaan 
 1. Dari source coding diatas terletak dimanakah overloading
@@ -98,7 +104,7 @@ tipe parameter yang berbeda ada satu yaitu double
 
 ![contoh screenshot](img/ikan.PNG)
 ini adalah pada class Ikan<br>
-[ini adalah link ke class Ikan](../../src/7_Overriding_dan_Overloading/Fish1841720061faizin.java)
+[ini adalah link ke class Ikan](../../src/7_Overriding_dan_Overloading/Fish1841720061Faizin.java)
 
 ## Pertanyaan
 1. Dari source coding diatas terletak dimanakah overriding?
@@ -116,7 +122,7 @@ class Piranha extends Ikan{
   
 ![contoh screenshot](img/jabarIkan.PNG)
 ini adalah pada class jabarIkan<br>
-[ini adalah link ke class JabarIkan](../../src/7_Overriding_dan_Overloading/JabarIkan1841720061faizin.java)
+[ini adalah link ke class JabarIkan](../../src/7_Overriding_dan_Overloading/JabarIkan1841720061Faizin.java)
 
 
 ### Kesimpulan 
@@ -138,42 +144,48 @@ Method Overloading juga dikenal dengan sebutan Static Polymorphism.
 
 ![contoh screenshot](img/segitiga.PNG)
 ini adalah pada class Segitiga<br>
-[ini adalah link ke Segitiga](../../src/7_Overriding_dan_Overloading/Segitiga1841720061faizin.java)
+[ini adalah link ke Segitiga](../../src/7_Overriding_dan_Overloading/Segitiga1841720061Faizin.java)
  
 ![contoh screenshot](img/main1Tugas.PNG)
 ini adalah pada class Mian<br>
-[ini adalah link ke Main](../../src/7_Overriding_dan_Overloading/Main1Tugas1841720061faizin.java)
+[ini adalah link ke Main](../../src/7_Overriding_dan_Overloading/Main1Tugas1841720061Faizin.java)
 
 
 ### Tugas 2 (Overridding)
 ![contoh screenshot](img/manusia.PNG)
 ini adalah pada class Manusia<br>
-[ini adalah link ke Manusia](../../src/7_Overriding_dan_Overloading/Manusia1841720061faizin.java)
+[ini adalah link ke Manusia](../../src/7_Overriding_dan_Overloading/Manusia1841720061Faizin.java)
 
 ![contoh screenshot](img/dosen.PNG)
 ini adalah pada class Dosen<br>
-[ini adalah link ke Dosen](../../src/7_Overriding_dan_Overloading/Dosen1841720061faizin.java)
+[ini adalah link ke Dosen](../../src/7_Overriding_dan_Overloading/Dosen1841720061Faizin.java)
 
 ![contoh screenshot](img/mahasiswa.PNG)
 ini adalah pada class Mahasiswa<br>
-[ini adalah link ke Mahasiswa](../../src/7_Overriding_dan_Overloading/Mahasiswa1841720061faizin.java)
+[ini adalah link ke Mahasiswa](../../src/7_Overriding_dan_Overloading/Mahasiswa1841720061Faizin.java)
 
 ![contoh screenshot](img/main2Tugas.PNG)
 ini adalah pada class Main<br>
-[ini adalah link ke Main](../../src/7_Overriding_dan_Overloading/Main2Tugas1841720061faizin.java)
+[ini adalah link ke Main](../../src/7_Overriding_dan_Overloading/Main2Tugas1841720061Faizin.java)
 
 ## Kesimpulan
 
 Overloading juga bisa terjadi antara parent class dengan subclass-nya jika memenuhi ketiga syarat overload. Ada beberapa aturan overloading yaitu: 
  Primitive widening conversion didahulukan dalam overloading dibandingkan boxing dan var args.  
+
  Kita tidak dapat melakukan proses widening dari tipe wrapper ke tipe wrapper lainnya (mengubah Integer ke Long). 
+
  Kita tidak dapat melakukan proses widening dilanjutkan boxing (dari int menjadi Long) 
+
  Kita dapat melakukan boxing dilanjutkan dengan widening (int dapat menjadi Object melalui Integer) 
+
  Kita dapat menggabungkan var args dengan salah satu yaitu widening atau boxing  
  
 Sehingga method pada parent class disebut overridden method dan method pada subclass disebut overriding method. Ada beberapa aturan method didalam overriding: 
  Mode akses overriding method harus sama atau lebih luas dari pada overridden method. 
+
  Subclass hanya boleh meng-override method superclass satu kali saja, tidak boleh ada lebih dari satu method pada kelas yang sama persis. 
+
  Overriding method tidak boleh throw checked exceptions yang tidak dideklarasikan oleh overridden method. 
  
 
