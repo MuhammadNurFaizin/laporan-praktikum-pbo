@@ -78,7 +78,7 @@ f. Pack() : menentukan secara otomatis ukuran frame sesuai komponen yang dimasuk
 3. Jadikan kelas MyInputForm sebagai turunan dari kelas JFrame
 
      ```java
-     public class MyInputForm1841720146Bagus extends JFrame {
+     public class MyInputForm1841720061Faizin extends JFrame {
      ```
 4. Pada kelas MyInputForm tambahkan beberapa variable berikut 
 
@@ -97,7 +97,7 @@ f. Pack() : menentukan secara otomatis ukuran frame sesuai komponen yang dimasuk
 5. Buatlah konstruktor dengan nama MyInputForm() dan tambahkan script berikut
 
      ```java
-     public MyInputForm1841720146Bagus() {
+     public MyInputForm() {
      createTextField();
      createButton();
      createPanel();
@@ -157,7 +157,7 @@ f. Pack() : menentukan secara otomatis ukuran frame sesuai komponen yang dimasuk
     ```java
      public static void main(String[] args) {
         //TODO code application logic here
-        JFrame frame = new MyInputForm1841720146Bagus();
+        JFrame frame = new MyInputForm1841720061Faizin();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
@@ -185,9 +185,9 @@ a) Modifikasi kode program dengan menambahkan JButton baru untuk melakukan fungs
 
 **a)** 
 
-![Gambar MyInputForm1841720146Bagus ditambah pertambahan](img/hasil2.1.PNG)
+![Gambar MyInputForm ditambah pertambahan](img/hasil2.1.PNG)
 
-  [ini link ke kode program MyInputForm1841720146Bagus yang ditambah pertambahan](../../src/11_GUI/Percobaan2/MyInputForm.java)
+  [ini link ke kode program MyInputForm1841720061Faizin yang ditambah pertambahan](../../src/11_GUI/Percobaan2/MyInputForm.java)
 
 
  
@@ -225,13 +225,13 @@ Sebuah layout border dapat diilustrasikan pada Gambar dibawah, di mana kita dapa
 5. Pada kelas Border Ketikkan sript berikut untuk membuat tampilan window dengan meletakkan tombol pada 5 lokasi sebagaimana gambar diatas yaitu (Utara, barat, tengah, timur, dan selatan) 
 
     ```java
-        public class Border1841720146Bagus extends JFrame{
+        public class Border1841720061Faizin extends JFrame{
         private static final int FRAME_WIDTH = 600;
         private static final int FRAME_HEIGHT = 200;
         private JPanel panel;
 
         //membuat kostruktor BorderLayoutForm
-        public  Border1841720146Bagus(){
+        public  Border1841720061Faizin(){
         panel = new JPanel();
         panel.setLayout(new BorderLayout());
         
@@ -253,7 +253,7 @@ Sebuah layout border dapat diilustrasikan pada Gambar dibawah, di mana kita dapa
 6. Selanjutnya, pada kelas Grid ketikkan script berikut untuk membuat layout grid dengan memiliki ukuran 4x2 dan pada masing-masing grid akan diisi dengan tombol 
 
     ```java
-         public Grid1841720146Bagus(){
+         public Grid1841720061Faizin(){
         panel = new JPanel();
         panel.setLayout(new GridLayout(4,2));
         panel.add(new JButton("1"));
@@ -275,13 +275,13 @@ Sebuah layout border dapat diilustrasikan pada Gambar dibawah, di mana kita dapa
 7. Kemudian pada kelas Box, masukkan script berikut untuk membuat tampilan layout dengan bentuk Box Layout dan orientasi Y 
 
      ```java
-         public class Box1841720146Bagus extends JFrame {
+         public class Box1841720061Faizin extends JFrame {
           private static final int FRAME_WIDTH = 600;
           private static final int FRAME_HEIGHT = 200;  
           private JPanel panel;
    
          //membuat kostruktor BorderLayoutForm
-            public  Box1841720146Bagus(){
+            public  Box1841720061Faizin(){
             panel = new JPanel();
             panel.setLayout(new BoxLayout(panel,BoxLayout.Y_AXIS));
         
@@ -300,24 +300,24 @@ Sebuah layout border dapat diilustrasikan pada Gambar dibawah, di mana kita dapa
 8. Langkah selanjutnya, diperlukan inisiasi object dari masing-masing layout pada object JFrame. Sehingga Pada kelas **LayoutGUI** perlu diatur setDefaultCloseOperation() dan setVisible() dengan mengetikkan script berikut, dengan sebelumnya tambahkan library javax.swing.JFrame pada kelas LayoutGUI 
  
      ```java
-        package Manejemenlayout.GUI.Bagus;
+        package Manejemenlayout.GUI.faizin;
 
         /**
         *
         * @author ROG SERIES
         */
         import javax.swing.JFrame;
-        public class LayoutGUI1841720146Bagus {
+        public class LayoutGUI1841720061Faizin {
         public static void main(String debby[] ){
-            JFrame frame = new Border1841720146Bagus();
+            JFrame frame = new Border1841720061Faizin();
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         
-            JFrame frame2 = new Grid1841720146Bagus();
+            JFrame frame2 = new Grid1841720061Faizin();
             frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame2.setVisible(true);
         
-            JFrame frame3 = new Box1841720146Bagus();
+            JFrame frame3 = new Box1841720061Faizin();
             frame3.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame3.setVisible(true);
           }
@@ -328,21 +328,21 @@ Sebuah layout border dapat diilustrasikan pada Gambar dibawah, di mana kita dapa
 
 **hasil Percobaan 3: Manajemen Layout**
 
-![Gambar Border1841720146Bagus](img/border.PNG)
+![Gambar Border1841720061Faizin](img/border.PNG)
 
-  [ini link ke kode program Border1841720146Bagus](../../src/11_GUI/Percobaan3/Border.java)
+  [ini link ke kode program Border1841720061Faizin](../../src/11_GUI/Percobaan3/Border.java)
 
-![Gambar Box1841720146Bagus](img/box.PNG)
+![Gambar Box1841720061Faizin](img/box.PNG)
 
-  [ini link ke kode program Box1841720146Bagus](../../src/11_GUI/Percobaan3/Box.java)
+  [ini link ke kode program Box1841720061Faizin](../../src/11_GUI/Percobaan3/Box.java)
 
-![Gambar Grid1841720146Bagus](img/grid.PNG)
+![Gambar Grid1841720061Faizin](img/grid.PNG)
 
-  [ini link ke kode program Grid1841720146Bagus](../../src/11_GUI/Percobaan3/Grid.java)
+  [ini link ke kode program Grid1841720061Faizin](../../src/11_GUI/Percobaan3/Grid.java)
 
-![Gambar LayoutGUI1841720146Bagus](img/layout.PNG)
+![Gambar LayoutGUI1841720061Faizin](img/layout.PNG)
 
-  [ini link ke kode program LayoutGUI1841720146Bagus](../../src/11_GUI/Percobaan3/LayoutGUI.java)
+  [ini link ke kode program LayoutGUI1841720061Faizin](../../src/11_GUI/Percobaan3/LayoutGUI.java)
 
 
 **Pertanyaan**
@@ -352,15 +352,15 @@ a) Apa perbedaan dari Grid Layout, Box Layout dan Border Layout?
 b) Apakah fungsi dari masing-masing kode berikut?  
  
 ```java
-         JFrame frame = new Border1841720146Bagus();
+         JFrame frame = new Border1841720061Faizin();
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame.setVisible(true);
         
-         JFrame frame2 = new Grid1841720146Bagus();
+         JFrame frame2 = new Grid1841720061Faizin();
          frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame2.setVisible(true);
         
-         JFrame frame3 = new Box1841720146Bagus();
+         JFrame frame3 = new Box1841720061Faizin();
          frame3.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame3.setVisible(true);
            }
@@ -380,14 +380,14 @@ b) Apakah fungsi dari masing-masing kode berikut?
 **b)**
  
 ```java
-         JFrame frame = new Border1841720146Bagus();
+         JFrame frame = new Border1841720061Faizin();
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame.setVisible(true);
 ```        
 **Jawaban :** Untuk menampilkan class Border
 
 ```java 
-         JFrame frame2 = new Grid1841720146Bagus();
+         JFrame frame2 = new Grid1841720061Faizin();
          frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame2.setVisible(true);
 ```
@@ -395,7 +395,7 @@ b) Apakah fungsi dari masing-masing kode berikut?
 **Jawaban :** Untuk menampilkan class Grid
 
 ```java  
-         JFrame frame3 = new Box1841720146Bagus();
+         JFrame frame3 = new Box1841720061Faizin();
          frame3.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame3.setVisible(true);         
 ```
@@ -449,7 +449,7 @@ Buatlah design sebagaimana pada gambar diatas dengan menggunakan komponen Swing 
 8. Selanjutnya, setelah design selesai pindah ke tab **Source** kemudian pada kelas Swing tambahkan variable yang dibutuhkan sebagaimana pada script berikut 
 
     ```java
-          public class Swing1841720146Bagus extends javax.swing.JFrame {
+          public class Swing1841720061Faizin extends javax.swing.JFrame {
           private String nama,nim,jeniskelamin,info,jurusan,matakuliah,semester,alamat;      
     ```
 
@@ -513,7 +513,7 @@ Buatlah design sebagaimana pada gambar diatas dengan menggunakan komponen Swing 
 ![Gambar hasil Swing](img/4.jpeg)
 
 
-  [ini link ke kode program Swing1841720146Bagus](../../src/11_GUI/Percobaan4/Swing1841720061Faizin.java)
+  [ini link ke kode program Swing1841720061Faizin](../../src/11_GUI/Percobaan4/Swing1841720061Faizin.java)
 
 
 **Pertanyaan** 
@@ -523,7 +523,7 @@ a) Apakah fungsi dari kode berikut?
  ```java
              java.awt.EventQueue.invokeLater(new Runnable() {
                public void run() {
-                new Swing1841720146Bagus().setVisible(true);
+                new Swing1841720061Faizin().setVisible(true);
                  }
               });
              }
