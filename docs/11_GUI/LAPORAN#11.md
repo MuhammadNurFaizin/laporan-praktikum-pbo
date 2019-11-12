@@ -623,9 +623,9 @@ b)
 
 Buatlah Sebuah Program yang mempunyai fungsi seperti kalkulator (mampu menjumlahkan, mengurangkan, mengalikan dan membagikan. Dengan tampilan seperti berikut.  
  
-![Gambar KalkulatorJava1841720146Bagus](img/tugas.jpeg)
+![Gambar Kalkulator](img/tugas.jpeg)
 
-  [ini link ke kode program KalkulatorJava1841720146Bagus](../../src/11_GUI/Tugas/Kalkulator1841720061Faizin.java)
+  [ini link ke kode program Kalkulator](../../src/11_GUI/Tugas/Kalkulator1841720061Faizin.java)
 
 
 
@@ -637,7 +637,7 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(Bagus Satria Putra)***
+***(Muhammad Nur Faizin)***
 
 
 
